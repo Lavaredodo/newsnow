@@ -8,9 +8,9 @@ services:
     volumes:
       - newsnow_data:/usr/app/.data
     environment:
-      - G_CLIENT_ID=
-      - G_CLIENT_SECRET=
-      - JWT_SECRET=
+      - G_CLIENT_ID=Ov23liIjO98MpAUiEwds
+      - G_CLIENT_SECRET=20d2c853a3c18bf2c9d86a352b0f9424c4c2b95f
+      - JWT_SECRET=20d2c853a3c18bf2c9d86a352b0f9424c4c2b95f
       - INIT_TABLE=true
       - ENABLE_CACHE=true
 
